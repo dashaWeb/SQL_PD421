@@ -143,3 +143,10 @@ where Name = 'Ariana'
 
 delete from Students
 where IsDebtor = 1
+
+
+--select g.Name
+--from Students, Groups as g
+
+select s.Name, s.Surname
+from Students as s
